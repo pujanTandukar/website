@@ -12,17 +12,28 @@ class About extends Component {
     return (
       <div>
         <NavBar />
-        <h2 id="aboutMe">About</h2>
         <div id="pujanInfo">
+          <h2 id="titleHeader">About</h2>
           <p>Hello there! My name is Pujan Tandukar.</p>
           <p>
             I am currently studying Computer Science and Technology Arts and
             Media at University of Colorado Boulder.
           </p>
           <div>
-            <img href="www.facebook.com" id="icons" src={Github} alt="Github" />
-            <img id="linkedin" src={LinkedIn} alt="Linkedin" />
-            <img id="icons" src={VSCO} alt="Vsco" />
+            <a target="_blank" href="https://github.com/pujanTandukar">
+              <img id="icons" alt="Github" src={Github} />
+            </a>
+
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/pujantandukar/"
+            >
+              <img id="linkedin" alt="Linkedin" src={LinkedIn} />
+            </a>
+
+            <a target="_blank" href="http://vsco.co/pujan-/">
+              <img id="icons" alt="VSCO" src={VSCO} />
+            </a>
           </div>
         </div>
       </div>

@@ -7,9 +7,10 @@
   left: 20%;
   right: 20%;
   height: 50vh;
+  top: 20%;
 }
 
-#aboutMe {
+#titleHeader {
   float: center;
   text-align: center;
   margin-top: 5%;
